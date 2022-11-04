@@ -10,7 +10,7 @@
 - 체크포인트 : https://workflowy.com/s/assessment-check-po/T5YrzcMewfo4J6LW
 
 
-# Table of contents  <-- 
+# Table of contents  <-- @@@ 내용 
 
 - [편의점 택배](#---)
   - [서비스 시나리오](#서비스-시나리오)
@@ -157,15 +157,13 @@
 
 ![image](https://user-images.githubusercontent.com/112917717/199902542-a5e9da2a-89e6-4200-acbb-24def9f532f5.png)
 
-### 폴리시의 이동과 컨텍스트 매핑 (점선은 Pub/Sub, 실선은 Req/Resp)
-
-![image](https://user-images.githubusercontent.com/487999/79683641-5f938580-8266-11ea-9fdb-4e80ff6642fe.png)
 
 ### 완성된 1차 모형
 
 ![image](https://user-images.githubusercontent.com/487999/79683646-63bfa300-8266-11ea-9bc5-c0b650507ac8.png)
 
-    - View Model 추가
+    - View Model 추가 / Exteral Model 추가
+    - 점선은 Pub/Sub, 실선은 Req/Resp
 
 ### 1차 완성본에 대한 기능적/비기능적 요구사항을 커버하는지 검증
 
