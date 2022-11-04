@@ -28,7 +28,7 @@
 
 # 서비스 시나리오
 
-배달의 민족 커버하기 - https://1sung.tistory.com/106
+편의점 택배 커버하기 - https://www.cupost.co.kr/postbox/home/general/guideProcess.cupost
 
 ################## 수정한 부분!!! ##################
 
