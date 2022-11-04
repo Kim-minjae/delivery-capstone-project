@@ -140,39 +140,40 @@
     - 과정중 도출된 잘못된 도메인 이벤트들을 걸러내는 작업을 수행함
 
 ### 액터, 커맨드 부착하여 읽기 좋게
-![image](https://user-images.githubusercontent.com/112917717/199898478-76821723-3337-4984-b6b7-b458b97f6cd3.png)
+![image](https://user-images.githubusercontent.com/112917717/199908037-0cd6a848-0804-420b-9cd7-fde398016d94.png)
+
 
 ### 어그리게잇으로 묶기
-![image](https://user-images.githubusercontent.com/112917717/199899298-c8b813eb-5c16-45b1-a7a3-c5b3cf38a746.png)
+![image](https://user-images.githubusercontent.com/112917717/199908530-96f45945-3e80-490f-9cdd-c614d0639ad3.png)
 
     - 연결된 command 와 event 들에 의하여 트랜잭션이 유지되어야 하는 단위로 그들 끼리 묶어줌
 
 ### 바운디드 컨텍스트로 묶기
 
-![image](https://user-images.githubusercontent.com/112917717/199899763-7f0e3f03-3a68-44b6-a9d1-fbb419180832.png)
+![image](https://user-images.githubusercontent.com/112917717/199909141-3dfe49b1-529b-4294-ba03-76edc916ec25.png)
 
     - @@@ 부연 내용 넣을 필요
 
 ### 폴리시 부착 (괄호는 수행주체, 폴리시 부착을 둘째단계에서 해놔도 상관 없음. 전체 연계가 초기에 드러남)
 
-![image](https://user-images.githubusercontent.com/112917717/199902542-a5e9da2a-89e6-4200-acbb-24def9f532f5.png)
-
-
-### 완성된 1차 모형
-
-![image](https://user-images.githubusercontent.com/487999/79683646-63bfa300-8266-11ea-9bc5-c0b650507ac8.png)
+![image](https://user-images.githubusercontent.com/112917717/199908327-1dba7e44-a8a7-4c2a-bd8e-92eb597137c4.png)
 
     - View Model 추가 / Exteral Model 추가
+
+### 완성된 모형
+
+![image](https://user-images.githubusercontent.com/112917717/199909630-0be5c645-ab53-45d0-95d2-f59fff23b1e3.png)
+
     - 점선은 Pub/Sub, 실선은 Req/Resp
 
 ### 1차 완성본에 대한 기능적/비기능적 요구사항을 커버하는지 검증
 
-![image](https://user-images.githubusercontent.com/487999/79684167-3ecd2f00-826a-11ea-806a-957362d197e3.png)
+![image](https://user-images.githubusercontent.com/112917717/199911361-68249867-6006-4de9-a51b-f9d79f0173f6.png)
 
-    - 고객이 메뉴를 선택하여 주문한다 (ok)
-    - 고객이 결제한다 (ok)
-    - 주문이 되면 주문 내역이 입점상점주인에게 전달된다 (ok)
-    - 상점주인이 확인하여 요리해서 배달 출발한다 (ok)
+    - 고객이 배송예약을 한다 (ok)
+    - 편의점에서 예약된 배송 송장 발급을 한다 (ok)
+    - 송장 발급과 결제가 되면 배송업체에게 전달된다 (ok)
+    - 배송업체에서 확인하여 물품수거 및 배송한다 (ok)
 
 ![image](https://user-images.githubusercontent.com/487999/79684170-47256a00-826a-11ea-9777-e16fafff519a.png)
     - 고객이 주문을 취소할 수 있다 (ok)
